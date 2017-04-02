@@ -1,6 +1,12 @@
 (function() {
 
-	function config($stateProvider) {
+	function config($stateProvider, $locationProvider) {
+		$locationProvider
+			.html5Mode({
+				enabled: true,
+				requireBase: false
+			});
+
 		$stateProvider
 			.state('main', {
 				url: '/',
