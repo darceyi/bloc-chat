@@ -1,3 +1,10 @@
-angular
-	.module('blocChat')
-	.controller('MainControl', MainControl);
+(function() {
+	function MainControl() {
+
+	}
+
+	angular
+		.module('blocChat')
+		.controller('MainControl', MainControl);
+
+})();
