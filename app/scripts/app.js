@@ -12,6 +12,11 @@
 				url: '/',
 				controller: 'MainControl as main',
 				templateUrl: '/templates/main.html'
+			})
+			.state('rooms', {
+				url: '/',
+				controller: 'RoomControl as rooms',
+				templateUrl: '/templates/rooms.html'
 			});
 	}
 

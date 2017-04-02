@@ -1,6 +1,6 @@
 (function() {
 	function MainControl() {
-
+		this.title = "Bloc Chat";
 	}
 
 	angular
